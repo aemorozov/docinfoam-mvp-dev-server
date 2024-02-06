@@ -1,0 +1,17 @@
+.nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.item {
+  padding: 20px;
+  font-weight: 400;
+}
+
+.active {
+  background-color: #e1f8ff;
+  border-radius: 10px;
+}

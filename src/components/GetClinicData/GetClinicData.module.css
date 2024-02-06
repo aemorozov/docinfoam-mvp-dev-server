@@ -1,0 +1,52 @@
+.data_block {
+  width: 100%;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+}
+
+.test_block {
+  max-width: 90%;
+  border-radius: 30px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.img {
+  width: 200px;
+  height: 300px;
+  margin: 20px 20px 20px 0;
+  border: 1px solid #bdbdbd;
+  background-color: #bdbdbd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.single__review {
+  border-radius: 25px;
+  text-align: left;
+  padding: 20px 0;
+}
+
+p {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.second__block {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.h4__left {
+  text-align: left;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.review__block__header {
+  display: flex;
+}

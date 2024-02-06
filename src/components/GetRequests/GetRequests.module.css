@@ -1,0 +1,38 @@
+.data_block {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+}
+
+.test_block {
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.test_block > * {
+  min-width: 20%;
+  max-width: 200px;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 1px solid #bdbdbd;
+  background-color: #bdbdbd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.patientInfo,
+.visitInfo {
+  margin: 0px 20px;
+}
